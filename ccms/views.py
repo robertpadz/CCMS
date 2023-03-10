@@ -25,5 +25,5 @@ def dispObject(request):
             3. Exhibit leadership and teamwork, and commitment to their respective local or
             global organizations."""
 
-    return HttpResponse(objects);
+    return HttpResponse(objects)
 

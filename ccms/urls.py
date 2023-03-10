@@ -20,7 +20,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('ccmsMission', views.dispMission, name='mission'),
-    path('ccmsVision', views.dispVision, name='vision'),
-    path('ccmsObjectives', views.dispObject, name='objectives'),
+    path('ccmsMission/', views.dispMission, name='mission'),
+    path('ccmsVision/', views.dispVision, name='vision'),
+    path('ccmsObjectives/', views.dispObject, name='objectives'),
 ]
